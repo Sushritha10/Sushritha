@@ -1,2 +1,0 @@
-# Sushritha
-C prog
