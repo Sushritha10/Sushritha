@@ -1,0 +1,57 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+strlen()
+int main()
+{
+     char str1[20] = "india";
+     printf("Length of string str1: %d", strlen(str1));
+     return 0;
+}
+
+
+strcmp()
+int main()
+{
+     char s1[20] = "sumukha";
+     char s2[20] = "sushritha";
+     if (strcmp(s1, s2) ==0)
+     {
+        printf("string 1 and string 2 are equal");
+     }else
+      {
+         printf("string 1 and 2 are different");
+      }
+     return 0;
+}
+
+
+strcat()
+int main()
+{
+     char s1[10] = "Hello";
+     char s2[10] = "World";
+     strcat(s1,s2);
+     printf("Output string after concatenation: %s", s1);
+     return 0;
+}
+
+
+strstr()
+int main () 
+{
+   const char haystack[20] = "greatday";
+   const char needle[10] = "great";
+   char *ret;
+
+   ret = strstr(haystack, needle);
+
+   printf("The substring is: %s\n", ret);
+   
+   return(0);
+}
